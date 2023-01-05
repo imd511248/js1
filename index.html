@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="bot">
+            <input type="text" id="number1" placeholder="Enter" class="class">
+            <input type="text" id="number2" placeholder="Enter" class="class">
+            <p id="show"></p>
+            <button onclick="result1()" class="don1">Add <i class='fa fa-plus'></i></button>
+            <button onclick="result2()" class="don2">Subtract <i class='fa fa-minus'></i></button>
+            <button onclick="result3()" class="don3">Multiply <i class='fa fa-times'></i></button>
+            <button onclick="result4()" class="don4">Devide <i class='fa fa-percentage'></i></button>
+        </div>
+    </div>
+
+
+    <script>
+        function result1() {
+            let number1 = document.getElementById('number1').value
+            let number2 = document.getElementById('number2').value
+            number1 = parseInt(number1)
+            number2 = parseInt(number2)
+            let show = document.getElementById('show')
+            let sum = number1 + number2
+            show.innerText = 'sum of ' + number1 + ' and ' + number2 + ' = ' + sum
+        }
+        function result2() {
+            let number1 = document.getElementById('number1').value
+            let number2 = document.getElementById('number2').value
+            number1 = parseInt(number1)
+            number2 = parseInt(number2)
+            let show = document.getElementById('show')
+            let sub = number1 - number2
+            show.innerText = 'Subtract of ' + number1 + ' and ' + number2 + ' = ' + sub
+        }
+        function result3() {
+            let number1 = document.getElementById('number1').value
+            let number2 = document.getElementById('number2').value
+            number1 = parseInt(number1)
+            number2 = parseInt(number2)
+            let show = document.getElementById('show')
+            let mul = number1 * number2
+            show.innerText = 'Multiply of ' + number1 + ' and ' + number2 + ' = ' + mul
+        }
+        function result4() {
+            let number1 = document.getElementById('number1').value
+            let number2 = document.getElementById('number2').value
+            number1 = parseInt(number1)
+            number2 = parseInt(number2)
+            let show = document.getElementById('show')
+            let dvd = number1 / number2
+            show.innerText = 'Devide of ' + number1 + ' and ' + number2 + ' = ' + dvd
+        }
+    </script>
+
+
+</body>
+
+</html>

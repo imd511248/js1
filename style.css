@@ -1,0 +1,79 @@
+p{
+    background-color: rgb(245, 239, 232);
+}
+body{
+    background-color: rgb(144, 147, 146);
+   
+}
+#show{
+    background-color: #8e6bbd;
+    height: 40px;
+    font-size: 20px;
+    width: 300px;
+    color: #d6f303;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+ .class {
+    background-color: aqua;
+    color: red;
+    padding: 5px 0px;
+    font-size: 30px;
+    width: 100px;
+    text-align: center;
+    outline: none;
+    border: 4px solid darkblue;
+    margin-left: 27px;
+    margin-top: 60px;
+   }
+   .don1{
+    font-size: 20px;
+    padding: 10px 30px;
+    border: 1px solid #000;
+    color: #fff;
+    background: red;
+    margin-left: 5px;
+   }
+   .don2{
+    font-size: 20px;
+    padding: 10px 26px;
+    border: 1px solid #000;
+    color: #fff;
+    background: red;
+    margin-left: 7px;
+   }
+   .don3{
+    font-size: 20px;
+    padding: 10px 14px;
+    border: 1px solid #000;
+    color: #fff;
+    background: red;
+    margin-left: 5px;
+    display: block;
+    margin-top: 12px;
+   }
+   .don4{
+    font-size: 20px;
+    padding: 10px 40px;
+    border: 1px solid #000;
+    color: #fff;
+    background: red;
+    position: relative;
+    top: -45px;
+    left: 135px;
+   }
+   .container{
+    max-width: 1140px;
+    justify-content: center;
+    display: flex;
+    margin: auto;
+   }
+   @media screen and (min-width:320px) and (max-width:480px)  {
+    .container{
+        width: 100%;
+    }
+    
+   }
